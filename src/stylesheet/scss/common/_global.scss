@@ -1,0 +1,71 @@
+$column-count: 12;
+
+@for $i from 1 through $column-count {
+    .width-#{$i} {
+      width: percentage($i / $column-count);
+    }
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.margin-center{
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-row-rev{
+    flex-direction: row-reverse;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.flex-col-rev{
+    flex-direction: column-reverse;
+}
+
+.flex-grow{
+    flex-grow: 1;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.block{
+    display: block;
+}
+
+.none{
+    display: none;
+}

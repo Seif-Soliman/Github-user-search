@@ -1,0 +1,30 @@
+.nav-container{
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+    padding: $spacing-3;
+    span{
+        background-color: $t8-color;
+        color: $t4-color;
+        border-radius: 100%;
+        width: .85rem;
+    }
+    i{
+        display: inline;
+    }
+    form{
+        background-color: $t9-color;
+        border-radius: $border-radius-2;
+            input{
+            width: 92.25%;
+            border: 0; 
+            height: 2rem;
+            background: url(/src/stylesheet/images/nav/search.svg) no-repeat scroll 7px 9px;
+            padding-left: $spacing-4;
+            border-radius: $border-radius-2;
+            }
+            button{
+                top: 0;
+                right: 0;
+            }
+        }
+}

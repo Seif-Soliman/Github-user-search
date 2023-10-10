@@ -1,0 +1,110 @@
+// -----------------------------------------------
+// VARIABLES : 
+
+$default-font:'Poppins-Reg', 'Sans Serif';
+$font-bold:'Poppins-Bold', 'Sans Serif';
+
+$font-size-10: toRem(10px);
+$font-size-11: toRem(11px);
+$font-size-12: toRem(12px);
+$font-size-12-25: toRem(12.25px);
+$font-size-13: toRem(13px);
+$font-size-14: toRem(14px);
+$font-size-15: toRem(15px);
+$font-size-16: toRem(16px);
+$font-size-18: toRem(18px);
+$font-size-32: toRem(32px);
+
+// -----------------------------------------------
+// VARIABLES : COLORS
+
+$t1-color: #121212;
+$t2-color: #7784EE;
+$t3-color: #797979;
+$t4-color: #FFF;
+$t5-color: #F85640;
+$t6-color: #E18109;
+$t7-color: #13854E;
+$t8-color: #08A0F7;
+$t8-2-color: rgba(8,160,247,0.15);
+$t8-3-color: rgba(8,160,247,0.06);
+$t9-color: #F4F7FC;
+$t10-color: #1778B0;
+$t11-color: #5F6DDD;
+$t12-color: #D2D7FF;
+$t13-color: #EAEEF6;
+$t14-color: #46BD84;
+$t14-2-color: rgba(52,167,112, 0.1);
+$t15-color: #D459E8;
+$t15-2-color: rgba(157,28,178, 0.1);
+$t16-color: #F85640;
+$t17-color: #79170A;
+$t18-color: #FFF8F8;
+$t19-color: #E18109;
+$t20-color: #FBA63C;
+$t21-color: #BC741A;
+$t22-color: #FFF8EF;
+$t23-color: #34A770;
+$t24-color: #DCF3EB;
+$t25-color: #13854E;
+$t26-color: #10673E;
+$t27-color: #3387B7;
+$t28-color: #E1F2FC;
+$t29-color: #41475E;
+$t30-color: #33AC72;
+$t31-color: #F0F5FC;
+$t32-color: #C9C9C9;
+
+
+
+// -----------------------------------------------
+// VARIABLES : SPACING 
+
+$spacing-1: toRem(28px);
+$spacing-2: toRem(24px);
+$spacing-3: toRem(8px);
+$spacing-4: toRem(30px);
+$spacing-5: toRem(26px); 
+$spacing-6: toRem(18px);
+$spacing-7: toRem(22px); 
+$spacing-8: toRem(16px); 
+$spacing-9: toRem(80px); 
+$spacing-10: toRem(32px); 
+$spacing-11: toRem(12px); 
+$spacing-12: toRem(14px); 
+$spacing-13: toRem(20px); 
+$spacing-14: toRem(40px); 
+$spacing-15: toRem(48px); 
+$spacing-16: toRem(52px); 
+$spacing-17: toRem(35px); 
+$spacing-18: toRem(25px); 
+$spacing-19: toRem(15px); 
+
+
+// -----------------------------------------------
+// VARIABLES : Border-radius
+$border-radius: toRem(8px);
+$border-radius-2: toRem(200px);
+
+// -----------------------------------------------
+// VARIABLES : Box-shadow
+$box-shadow: 0px 30px 60px 0px rgba(32, 56, 85, 0.15);
+$box-shadow-2: 0px 5px 15px 0px rgba(119, 132, 238, 0.30);
+
+// -----------------------------------------------
+// VARIABLES : Opacity
+$opacity: 0.15;
+$opacity-2: 0;
+
+
+// -----------------------------------------------
+// VARIABLES : Media Query
+$media-phone: 425px;
+$media-tablet: 768px;
+$media-desktop: 1024px;
+
+// -----------------------------------------------
+// VARIABLES : Gutter
+/* $grid-gutter:  7.5px;
+$grid-gutter-sm: $grid-gutter/2;
+$grid-gutter-lg: $grid-gutter*2; */

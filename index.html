@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Users</title>
+    <link rel="stylesheet" href="./src/stylesheet/css/main.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-container default-font flex flex-row width-6 margin-center align-items-center">
+            <p class="width-3 margin-center text-center font-size-12 t8-color font-bold">Search for GitHub Users</p>
+            <form id="searchForm" class="width-6 spacing-3-mr relative">
+                <input type="text" id="searchInput" class="width-12 font-size-12"/>
+                <button type="submit" id="submit" class="btn absolute">Search</button>
+            </form>
+        </nav>
+    </header>
+
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+    <main>
+        <section class="resultContainer default-font width-8 margin-center align-items-center ">
+            <div id="results"></div>
+        </section>
+
+        <div id="pagination" class="default-font width-8 margin-center text-center"></div>
+    </main>
+    
+    
+    <script src="./dist/bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+//Sass Map to store color values
+$colors:(
+
+    't1-color': $t1-color,
+    't2-color': $t2-color,
+    't3-color': $t3-color,
+    't4-color': $t4-color,
+    't5-color': $t5-color,
+    't6-color': $t6-color,
+    't7-color': $t7-color,
+    't8-color': $t8-color,
+    't8-2-color': $t8-2-color,
+    't8-3-color': $t8-3-color,
+    't9-color': $t9-color,
+    't10-color': $t10-color,
+    't11-color': $t11-color,
+    't12-color': $t12-color,
+    't13-color': $t13-color,
+    't14-color': $t14-color,
+    't14-2-color': $t14-2-color,
+    't15-color': $t15-color,
+    't15-2-color': $t15-2-color,
+    't16-color': $t16-color,
+    't17-color': $t17-color,
+    't18-color': $t18-color,
+    't19-color': $t19-color,
+    't20-color': $t20-color,
+    't21-color': $t21-color,
+    't22-color': $t22-color,
+    't23-color': $t23-color,
+    't24-color': $t24-color,
+    't25-color': $t25-color,
+    't26-color': $t26-color,
+    't27-color': $t27-color,
+    't28-color': $t28-color,
+    't29-color': $t29-color,
+    't30-color': $t30-color,
+    't31-color': $t31-color,
+    't32-color': $t32-color
+);
+
+//@each Sass loop to generate classes
+@each $name, $color in $colors{
+    .#{$name}{
+        color: $color;
+    }
+
+    .bg-#{$name}{
+        background-color: $color;
+    }
+
+    .bc-#{$name}{
+        border-color: $color;
+    }
+}
+
+
+

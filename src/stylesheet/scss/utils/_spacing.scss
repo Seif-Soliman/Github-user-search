@@ -1,0 +1,59 @@
+//Sass Map to store spacing values
+$spacers:(
+
+    'spacing-1': $spacing-1,
+    'spacing-2': $spacing-2,
+    'spacing-3': $spacing-3,
+    'spacing-4': $spacing-4,
+    'spacing-5': $spacing-5,
+    'spacing-6': $spacing-6,
+    'spacing-7': $spacing-7,
+    'spacing-8': $spacing-8,
+    'spacing-9': $spacing-9,
+    'spacing-10': $spacing-10,
+    'spacing-11': $spacing-11,
+    'spacing-12': $spacing-12,
+    'spacing-13': $spacing-13,
+    'spacing-14': $spacing-14,
+    'spacing-15': $spacing-15,
+    'spacing-16': $spacing-16,
+    'spacing-17': $spacing-17,
+    'spacing-18': $spacing-18,
+    'spacing-19': $spacing-19
+);
+
+//@each Sass loop to generate classes
+@each $name, $value in $spacers{
+    .#{$name}{
+        padding: $value;
+    }
+    .#{$name}-r{
+        padding-right: $value;
+    }
+    .#{$name}-l{
+        padding-left: $value;
+    }
+    .#{$name}-t{
+        padding-top: $value;
+    }
+    .#{$name}-b{
+        padding-bottom: $value;
+    }
+
+    .#{$name}-m{
+        margin: $value;
+    }
+    .#{$name}-mr{
+        margin-right: $value;
+    }
+    .#{$name}-ml{
+        margin-left: $value;
+    }
+    .#{$name}-mt{
+        margin-top: $value;
+    }
+    .#{$name}-mb{
+        margin-bottom: $value;
+    }
+
+}
